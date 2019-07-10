@@ -26,6 +26,9 @@ export default {
     onSubmit(e) {
       e.preventDefault();
       this.addComp(this.title);
+
+      // Clear input
+      this.title = '';
     }
   }
 };

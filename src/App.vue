@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import ListComp from "./components/ListComp.vue";
-import AddComp from "./components/AddComp.vue";
-import FilterComp from "./components/FilterComp.vue";
+import ListComp from "./components/module1/ListComp.vue";
+import AddComp from "./components/module1/AddComp.vue";
+import FilterComp from "./components/module1/FilterComp.vue";
 
 export default {
   name: "app",
